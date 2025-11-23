@@ -2,11 +2,11 @@
 %Project 2.1
 %GPA Calculator for students report card
 %Ask user for class information
-numCourses=input("Enter number of courses taken: ");
+numCourses=input("Enter the number of courses you are taking:\n");
 while numCourses<=0
     numCourses=input("Enter a valid positive whole number of courses: ");
 end
-%Store each array with zeros, depending on # of classes 
+%Store each array with zeros, depending on # of courses 
 units=zeros(1,numCourses);
 gradePts=zeros(1,numCourses);
 %Loop through each course for units and grade
